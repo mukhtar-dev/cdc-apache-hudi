@@ -47,13 +47,13 @@ Hudi Aggregated Table (/hudi_data/aggregated_orders)
 ├── docker-compose.yml
 ├── connector.json
 ├── scripts/
-│   └── init.sh               # PostgreSQL initialization
-├── jars_dir/                 # Optional Spark JARs
-└── spark-apps/
     ├── kafka_to_hudi_stream.py
     ├── update_hudi_agg_table.py
     ├── query_hudi_base_table.py
-    └── query_hudi_agg_table.py
+    ├── query_hudi_agg_table.py
+│   └── init.sh               # PostgreSQL initialization
+├── jars_dir/                 # Optional Spark JARs
+
 ```
 
 ---
