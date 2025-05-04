@@ -65,7 +65,6 @@ Hudi Aggregated Table (/hudi_data/aggregated_orders)
 cd C:\DataProjects\cdc-apache-hudi
 docker-compose up --build
 
-
 ### 2. Prepare PostgreSQL
 
 ```bash
