@@ -16,6 +16,7 @@ This project demonstrates a complete Change Data Capture (CDC) pipeline using Po
 ---
 
 ## 🏗️ Architecture Overview
+```text
 
 PostgreSQL (retail_transactions table)
 │
@@ -41,7 +42,7 @@ Hudi Aggregated Table (/hudi_data/aggregated_orders)
 ---
 
 ## 📁 Project Structure
-
+```text
 .
 ├── docker-compose.yml
 ├── connector.json
@@ -64,6 +65,7 @@ Hudi Aggregated Table (/hudi_data/aggregated_orders)
 ```bash
 cd C:\DataProjects\cdc-apache-hudi
 docker-compose up --build
+
 
 ### 2. Prepare PostgreSQL
 
