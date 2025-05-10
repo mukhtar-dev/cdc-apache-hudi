@@ -68,7 +68,7 @@ Hudi Aggregated Table (/hudi_data/aggregated_orders)
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/cdc-apache-hudi.git
+git clone https://github.com/mukhtar-dev/cdc-apache-hudi.git
 cd cdc-apache-hudi
 ```
 
